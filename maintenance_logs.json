@@ -1,0 +1,80 @@
+[
+  {
+    "log_id": "ML-2024-0113",
+    "machine_id": "HP-450-07",
+    "machine_type": "Hydraulic Press HP-450",
+    "date": "2024-11-03",
+    "technician": "R. Alvarez",
+    "fault_code": "E-101",
+    "symptom": "Press failing to reach full tonnage, cycle time increased by ~20%",
+    "root_cause": "Pressure relief valve had drifted below setpoint due to spring fatigue",
+    "action_taken": "Replaced pressure relief valve cartridge (HPX-PRV-14), recalibrated at TP-2",
+    "downtime_hours": 4.5,
+    "parts_used": ["HPX-PRV-14"]
+  },
+  {
+    "log_id": "ML-2024-0157",
+    "machine_id": "HP-450-03",
+    "machine_type": "Hydraulic Press HP-450",
+    "date": "2024-12-19",
+    "technician": "T. Okafor",
+    "fault_code": "E-115",
+    "symptom": "Hydraulic fluid temperature alarm during second shift, fluid running hot",
+    "root_cause": "Heat exchanger fins clogged with dust, restricting airflow",
+    "action_taken": "Cleaned heat exchanger, replaced return-line filter as preventive step",
+    "downtime_hours": 2.0,
+    "parts_used": ["HPX-FLT-220"]
+  },
+  {
+    "log_id": "ML-2025-0022",
+    "machine_id": "HP-450-07",
+    "machine_type": "Hydraulic Press HP-450",
+    "date": "2025-02-08",
+    "technician": "R. Alvarez",
+    "fault_code": "E-108",
+    "symptom": "Ram creeping down slowly during dwell phase on deep-draw parts",
+    "root_cause": "Worn rod seal on ram cylinder allowing internal leakage",
+    "action_taken": "Rebuilt ram cylinder with seal kit, verified drift under 0.2mm/60s",
+    "downtime_hours": 8.0,
+    "parts_used": ["HPX-SEAL-RAM45"]
+  },
+  {
+    "log_id": "ML-2025-0091",
+    "machine_id": "VM200-11",
+    "machine_type": "CNC Vertical Mill VM-200",
+    "date": "2025-04-14",
+    "technician": "S. Kim",
+    "fault_code": "ALM-407",
+    "symptom": "Y-axis following error during high-speed contour cuts",
+    "root_cause": "Y-axis servo encoder feedback degraded, intermittent signal dropout",
+    "action_taken": "Replaced Y-axis encoder assembly, ran backlash verification",
+    "downtime_hours": 6.5,
+    "parts_used": ["VM-ENCODER-Y"]
+  },
+  {
+    "log_id": "ML-2025-0134",
+    "machine_id": "VM200-04",
+    "machine_type": "CNC Vertical Mill VM-200",
+    "date": "2025-06-02",
+    "technician": "S. Kim",
+    "fault_code": "ALM-420",
+    "symptom": "Tool changer intermittently failing to seat tools, occasional dropped tool alarm",
+    "root_cause": "Worn ATC gripper jaw no longer holding tool holder securely",
+    "action_taken": "Replaced ATC gripper, checked air pressure regulator at 87 PSI (nominal)",
+    "downtime_hours": 3.0,
+    "parts_used": ["VM-GRIPPER-ATC3"]
+  },
+  {
+    "log_id": "ML-2025-0201",
+    "machine_id": "HP-450-03",
+    "machine_type": "Hydraulic Press HP-450",
+    "date": "2025-09-27",
+    "technician": "T. Okafor",
+    "fault_code": "E-130",
+    "symptom": "Loud whining noise from pump at startup, especially cold mornings",
+    "root_cause": "Suction strainer partially clogged causing pump cavitation",
+    "action_taken": "Replaced suction strainer, verified reservoir fluid level",
+    "downtime_hours": 1.5,
+    "parts_used": ["HPX-STRAINER-08"]
+  }
+]

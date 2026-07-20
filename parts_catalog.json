@@ -1,0 +1,14 @@
+[
+  {"part_no": "HPX-FLT-220", "description": "Return line filter element, 10 micron", "compatible_machines": ["Hydraulic Press HP-450"], "in_stock": 6, "unit_cost_usd": 84.50, "lead_time_days": 3},
+  {"part_no": "HPX-PRV-14", "description": "Pressure relief valve cartridge, 3000 PSI rated", "compatible_machines": ["Hydraulic Press HP-450"], "in_stock": 1, "unit_cost_usd": 310.00, "lead_time_days": 10},
+  {"part_no": "HPX-SEAL-RAM45", "description": "Ram cylinder seal kit (rod + piston seals)", "compatible_machines": ["Hydraulic Press HP-450"], "in_stock": 2, "unit_cost_usd": 145.00, "lead_time_days": 7},
+  {"part_no": "HPX-STRAINER-08", "description": "Suction strainer, 100 mesh", "compatible_machines": ["Hydraulic Press HP-450"], "in_stock": 8, "unit_cost_usd": 42.00, "lead_time_days": 2},
+  {"part_no": "HPX-PUMP-30", "description": "Complete main pump assembly (HPX-30)", "compatible_machines": ["Hydraulic Press HP-450"], "in_stock": 0, "unit_cost_usd": 3450.00, "lead_time_days": 21},
+  {"part_no": "HPX-CONN-J4", "description": "Safety relay connector, J4 replacement", "compatible_machines": ["Hydraulic Press HP-450"], "in_stock": 12, "unit_cost_usd": 18.00, "lead_time_days": 1},
+  {"part_no": "VM-FLT-COOL", "description": "Coolant filter screen, 40 mesh", "compatible_machines": ["CNC Vertical Mill VM-200"], "in_stock": 10, "unit_cost_usd": 22.00, "lead_time_days": 2},
+  {"part_no": "VM-BEARING-SP12", "description": "Spindle bearing set (angular contact, matched pair)", "compatible_machines": ["CNC Vertical Mill VM-200"], "in_stock": 1, "unit_cost_usd": 890.00, "lead_time_days": 14},
+  {"part_no": "VM-BELT-DRV5", "description": "Spindle drive belt", "compatible_machines": ["CNC Vertical Mill VM-200"], "in_stock": 4, "unit_cost_usd": 65.00, "lead_time_days": 3},
+  {"part_no": "VM-GRIPPER-ATC3", "description": "ATC gripper replacement, tool pot 3-compatible", "compatible_machines": ["CNC Vertical Mill VM-200"], "in_stock": 3, "unit_cost_usd": 210.00, "lead_time_days": 5},
+  {"part_no": "VM-ENCODER-Y", "description": "Y-axis servo motor encoder assembly", "compatible_machines": ["CNC Vertical Mill VM-200"], "in_stock": 0, "unit_cost_usd": 1275.00, "lead_time_days": 18},
+  {"part_no": "VM-WAYOIL-FLT", "description": "Way lubrication oil filter cartridge", "compatible_machines": ["CNC Vertical Mill VM-200"], "in_stock": 7, "unit_cost_usd": 35.00, "lead_time_days": 2}
+]
